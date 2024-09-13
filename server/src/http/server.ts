@@ -19,6 +19,7 @@ app.get("/pending-goals", async () => {
 
 	return { pendingGoals };
 });
+
 app.post(
 	"/completions",
 	{
